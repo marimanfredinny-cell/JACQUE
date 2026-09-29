@@ -73,7 +73,7 @@ h1 em, h2 em, .display-quote em, .gallery-heading em, .visual-caption em { color
 .hero-note { display: flex; gap: 12px; align-items: flex-start; max-width: 380px; margin-top: 62px; color: var(--cocoa-soft); font-size: 11px; line-height: 1.45; }
 .note-dot { flex: 0 0 auto; width: 8px; height: 8px; margin-top: 5px; border-radius: 50%; background: var(--sage); box-shadow: 0 0 0 5px rgba(170,181,154,.2); }
 .hero-visual { position: relative; min-height: 560px; }
-.hero-texture { position: absolute; inset: 8% 0 0 16%; background: url('/manus-storage/async-images/RIHJ3WiHmWyIUy5sLgwKIe/image-1.webp') center/cover, var(--ivory-deep); opacity: .78; mix-blend-mode: multiply; transform: rotate(2deg); }
+.hero-texture { position: absolute; inset: 8% 0 0 16%; background: url('/assets/hero-texture.webp') center/cover, var(--ivory-deep); opacity: .78; mix-blend-mode: multiply; transform: rotate(2deg); }
 .hero-frame { position: absolute; overflow: hidden; box-shadow: var(--shadow); background: var(--ivory-deep); }
 .hero-frame::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(37,26,23,.15)); pointer-events: none; }
 .hero-frame img { width: 100%; height: 100%; object-fit: cover; }
